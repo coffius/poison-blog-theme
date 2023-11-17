@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, strong {
 }
 .btn-light-dark {
     padding: 0;
-    margin: 1em;
+    margin: 1em 0 1em 1em;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -132,7 +132,7 @@ body > .wrapper {
     background-color: var(--sidebar-bg-color);
 }
 .lead {
-  text-align: center;
+  text-align: right;
   color: var(--sidebar-p-color);
 }
 .sidebar-about img {
@@ -143,6 +143,11 @@ body > .wrapper {
     border-radius: 50%;
     height: 180px;
     width: 180px;
+}
+.social-links {
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
 .social {
     margin-right: 0.5em;
@@ -270,7 +275,7 @@ tbody tr:nth-child(odd) th {
 .article-toc {
     display: none;
     font-size: 0.9em;
-    width: 20em;
+    width: 30%;
     margin-top: 5em;
     overflow-y: auto;
     line-height: 1.4em;
